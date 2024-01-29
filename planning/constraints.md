@@ -4,6 +4,8 @@ Some boundaries around our project.
 
 ## External
 
+Time; Due to my limited technical skills, the deadline can be an issue.
+
 <!--
   constraints coming from the outside that your team has no control over.
   These may include:
@@ -13,6 +15,13 @@ Some boundaries around our project.
 -->
 
 ## Internal: Involuntary
+
+Technical skill, design constraints; As a beginner limited skills and knowledge,
+may constrain the design and customization options of the website.
+
+Content; As a beginner i have a limited portfolio of work to showcase.
+
+Time; Due to my limited technical skills the deadline can be an issue.
 
 <!--
   constraints that come from within your team, and you have no control over.

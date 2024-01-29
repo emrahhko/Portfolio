@@ -1,18 +1,46 @@
 # User Personas
 
-<!-- some introduction -->
+## User Personas 1
+
+### 1-Bio : Business owner - Jeanne Doe
+
+Jeanne Doe,
+
+### Setting
+
+Jeanne needs a web developer to establish a website and an online presence for
+her store, in order to reach more potential customers.
+
+### Challenges
+
+Limited knowledge about web development and everything tech makes it difficult
+for her to find the right web developer.
 
 ---
 
-<!-- a persona -->
+## User Personas 2
 
-## Their Role
+### 2-Bio : Recruiter - John Doe
 
-- **Bio**:
-- **Needs/Goals**:
-- **Frustrations**:
-- **Scenario 1**:
+### Setting
+
+John, a recruiter specializing in the tech industry, often scouts for talented
+individuals through online portfolios.
+
+### Challenges
+
+He may be seeking candidates to fill specific roles within companies.
 
 ---
 
-<!-- more personas ... -->
+## User Personas 3
+
+### 3-Bio : Aspiring web developer - Hasan Basan
+
+### Setting
+
+Hasan is an aspiring web developer who is looking for examples and inspiration.
+
+### Challenges
+
+He may be seeking guidance on starting his own portfolio.
