@@ -1,6 +1,6 @@
-# Name of project
+# Portfolio
 
-> A longer description
+> My personal portfolio
 
 ## Table of contents
 
@@ -22,7 +22,8 @@
 
 ## General info
 
-> A short description
+> Collection of my accomplishments, project to demonstrate my skills and
+> capabilities
 
 ## Screenshots
 
@@ -66,11 +67,11 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+freeCodeCamp.org medium.com
 
 ## Contact
 
-By [Name]
+Emrah
 
 ## Instructions for use
 
