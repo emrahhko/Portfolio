@@ -1,1 +1,98 @@
 @import url("./something.css");
+
+/*     header styling       */
+
+header .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation li {
+  display: inline;
+  margin: 20px;
+}
+
+.navigation ul {
+  text-align: right;
+  height: 100%;
+  padding: 50px;
+  list-style-type: none;
+}
+
+.logo {
+  width: 50px;
+}
+
+/*   upper main styling        */
+
+.upper-main {
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+/*   middle main styling      */
+
+.middle-main {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.middle-main div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.middle-main img {
+  max-width: 100%;
+}
+
+/*  bottom main styling    */
+
+.bottom-main {
+  display: flex;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.content {
+  display: grid;
+  gap: 20px;
+}
+
+.img-p {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.img-p img {
+  max-width: 100%;
+}
+
+.marg {
+  margin-left: 10px;
+}
+
+/*     footer styling     */
+
+.social-media img {
+  height: 35px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
