@@ -7,14 +7,15 @@ body {
 /*  font styling      */
 
 h2 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: monospace;
   color: #131212e8;
+  font-size: 22px;
 }
 
 h3 {
-  font-family: cursive;
+  font-family: monospace;
   color: #131212e8;
+  font-size: 22px;
 }
 
 /*     header styling       */
