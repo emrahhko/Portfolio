@@ -1,16 +1,42 @@
 @import url("./something.css");
 
+body {
+  background-color: #f1f1f1;
+}
+
+/*  font styling      */
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #131212e8;
+}
+
+h3 {
+  font-family: cursive;
+  color: #131212e8;
+}
+
 /*     header styling       */
 
 header .navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: sans-serif;
+  background-color: #131212e8;
+  color: #fff;
+}
+
+header h1 {
+  font-family: monospace;
+  font-size: 21px;
 }
 
 a {
   text-decoration: none;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
 }
 
 .navigation li {
@@ -31,10 +57,19 @@ a {
 
 /*   upper main styling        */
 
+.quote {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #131212e8;
+}
+
 .upper-main {
   text-align: center;
   padding-bottom: 50px;
   margin-bottom: 50px;
+  color: #131212e8;
 }
 
 /*   middle main styling      */
@@ -83,6 +118,14 @@ a {
 
 .marg {
   margin-left: 10px;
+}
+
+.center {
+  display: block;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /*     footer styling     */
