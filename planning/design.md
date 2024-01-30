@@ -12,6 +12,8 @@
 
 ## Wireframe(s)
 
+![home-design](/img/design-index-hyf.png)
+
 > Include your wireframe(s) and link to wireframe
 
 <!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
