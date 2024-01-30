@@ -51,7 +51,7 @@ Project is: _in progress_
 
 ## Inspiration
 
-freeCodeCamp.org medium.com
+<https://www.stevewolf.co>
 
 ## Contact
 

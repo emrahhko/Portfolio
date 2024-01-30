@@ -13,7 +13,7 @@
 ## Wireframe(s)
 
 ![home-design](../img/design-index-hyf.png)
-![contact-design](../img/contact.png)
+![about-design](../img/about-design.png) ![contact-design](../img/contact.png)
 
 > Include your wireframe(s) and link to wireframe
 
