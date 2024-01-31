@@ -19,7 +19,8 @@
     "Hasan",
     "Basan",
     "loruki",
-    "bootcamp's"
+    "bootcamp's",
+    "bootcamp"
   ],
   "ignorePaths": [
     "node_modules/**",
