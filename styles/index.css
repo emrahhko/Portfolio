@@ -67,6 +67,11 @@ a {
 
 /*   upper main styling        */
 
+.upper-main img {
+  width: 1400px;
+  height: auto;
+}
+
 .quote {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
