@@ -17,7 +17,7 @@ header .navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #131212e8;
+  background-color: #0e1111;
   color: #fff;
 }
 
@@ -113,7 +113,7 @@ h3 {
 /*     footer styling     */
 
 .social-media {
-  background-color: black;
+  background-color: #0e1111;
   height: 350px;
   color: #fff;
   display: flex;
