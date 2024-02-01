@@ -55,7 +55,8 @@ a {
   background-color: #fff;
   background-image: url("../img/coding.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: 85%;
+  background-position-y: 45%;
   padding: 3%;
   padding-right: 20%;
   margin-top: 20px;
@@ -65,7 +66,8 @@ a {
 
 h3 {
   text-align: center;
-  padding-right: 25%;
+  padding-right: 30%;
+  font-size: 23px;
 }
 
 /*     presentation section  styling     */
@@ -88,19 +90,24 @@ h3 {
   margin-top: 40px;
   padding-top: 20px;
   text-align: center;
+  font-size: 13px;
+}
+
+.content h2 {
+  margin-right: 15%;
 }
 
 .presentation img {
-  margin-top: 50px;
-  margin-left: 20px;
+  margin-top: 75px;
+  margin-left: 50%;
   margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   display: block;
-  height: 150px;
-  width: 150px;
-  border-radius: 70%;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
 }
 
 /*     footer styling     */
