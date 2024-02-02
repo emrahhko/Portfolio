@@ -17,8 +17,8 @@ header .navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #0e1111;
-  color: #fff;
+  background-color: #faf9f6;
+  color: #0e1111;
 }
 
 header h1 {
@@ -28,7 +28,7 @@ header h1 {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #0e1111;
   font-family: monospace;
   font-size: 20px;
 }
@@ -47,6 +47,7 @@ a {
 
 .logo {
   width: 50px;
+  margin-left: -12px;
 }
 
 /*       quote section styling     */
