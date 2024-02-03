@@ -7,13 +7,13 @@ body {
 /*  font styling      */
 
 h2 {
-  font-family: monospace;
+  font-family: roboto, sans-serif;
   color: #131212e8;
   font-size: 22px;
 }
 
 h3 {
-  font-family: monospace;
+  font-family: lato, sans-serif;
   color: #131212e8;
   font-size: 22px;
 }
@@ -74,9 +74,8 @@ a {
 }
 
 .quote {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 18px;
+  font-family: Sixtyfour, sans-serif;
+  font-size: 20px;
   font-style: italic;
   color: #131212e8;
 }
