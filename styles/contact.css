@@ -48,12 +48,11 @@ a {
 /*    contact form styling      */
 
 h2 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: roboto, sans-serif;
 }
 
 p {
-  font-family: monospace;
+  font-family: roboto, sans-serif;
   font-size: 16px;
 }
 
@@ -86,6 +85,7 @@ p {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  font-family: lato, sans-serif;
 }
 
 .contact-form input[type="text"],
@@ -98,6 +98,11 @@ p {
   background-color: #eceaea;
   margin-bottom: 10px;
   font-size: 18px;
+  font-family: sixtyfour, sans-serif;
+}
+
+button {
+  font-family: roboto, sans-serif;
 }
 
 .contact-form button {
