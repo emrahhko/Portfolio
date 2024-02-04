@@ -7,30 +7,32 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  height: 300px;
   width: 100%;
   margin-top: 1.5%;
 }
 
-/*  header styling         */
+/* header styling     */
 
 header .navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 150px;
   background-color: #faf9f6;
   color: #0e1111;
 }
 
 header h1 {
-  font-family: monospace;
-  font-size: 21px;
+  font-family: raleway, sans-serif;
+  font-size: 55px;
 }
 
 a {
   text-decoration: none;
   color: #0e1111;
-  font-family: monospace;
-  font-size: 20px;
+  font-family: rajdhani, sans-serif;
+  font-size: 40px;
 }
 
 .navigation li {
@@ -43,6 +45,7 @@ a {
   height: 100%;
   padding: 50px;
   list-style-type: none;
+  margin-top: 100px;
 }
 
 .logo {
