@@ -91,6 +91,9 @@ a {
 
 .middle-main {
   display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
   align-items: center;
   margin-left: 5%;
   padding-bottom: 50px;
