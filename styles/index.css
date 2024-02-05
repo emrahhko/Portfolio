@@ -27,7 +27,7 @@ header {
   left: 0;
   height: 300px;
   width: 100%;
-  margin-top: 1.5%;
+  margin-top: 2.5%;
 }
 
 /* header styling     */
@@ -68,7 +68,7 @@ a {
 
 .logo {
   width: 50px;
-  margin-left: -12px;
+  margin-left: 36px;
 }
 
 /*   upper main styling        */
