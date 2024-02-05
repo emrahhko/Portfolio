@@ -7,15 +7,17 @@ body {
 /*  font styling      */
 
 h2 {
-  font-family: roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #131212e8;
-  font-size: 22px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 h3 {
-  font-family: lato, sans-serif;
+  font-family: rajdhani, sans-serif;
   color: #131212e8;
-  font-size: 22px;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 /*    sticky header styling       */
@@ -98,7 +100,7 @@ a {
   align-content: stretch;
   justify-content: center;
   align-items: center;
-  margin-left: 5%;
+  margin-left: 1%;
   padding-bottom: 50px;
   margin-bottom: 50px;
   margin-right: 5%;
