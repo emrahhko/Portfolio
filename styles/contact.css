@@ -5,7 +5,7 @@ header {
   left: 0;
   height: 300px;
   width: 100%;
-  margin-top: 1.5%;
+  margin-top: 2.5%;
 }
 
 /* header styling     */
@@ -46,7 +46,7 @@ a {
 
 .logo {
   width: 50px;
-  margin-left: -12px;
+  margin-left: 33px;
 }
 
 /*    contact form styling      */
@@ -66,9 +66,11 @@ p {
 }
 
 .contact-form {
-  margin-top: 7%;
-  margin-left: 43%;
+  /* margin-top: 7%;
+  margin-left: 35%;
   margin-right: 50%;
+  margin-bottom: 5%; */
+  margin: 3% 50% 7% 40%;
   background-color: #faf9f6;
   padding: 20px;
   border-radius: 10px;
@@ -79,17 +81,21 @@ p {
 .contact-form h2 {
   text-align: center;
   margin-bottom: 10px;
+  font-family: Rajdhani, sans-serif;
+  font-size: 30px;
 }
 
 .contact-form p {
   margin-bottom: 10px;
+  font-family: Rajdhani, sans-serif;
+  font-size: 24px;
 }
 
 .contact-form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  font-family: lato, sans-serif;
+  font-family: Rajdhani, sans-serif;
 }
 
 .contact-form input[type="text"],
@@ -102,6 +108,9 @@ p {
   background-color: #eceaea;
   margin-bottom: 10px;
   font-size: 18px;
+}
+
+.contact-form :placeholder-shown {
   font-family: sixtyfour, sans-serif;
 }
 
