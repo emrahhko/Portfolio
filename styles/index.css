@@ -73,6 +73,11 @@ a {
 
 /*   upper main styling        */
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .upper-main img {
   width: 1400px;
   height: auto;
@@ -116,7 +121,6 @@ a {
 
 .middle-main img {
   height: 650px;
-  width: 570px;
   max-width: 100%;
 }
 
@@ -214,4 +218,77 @@ a {
 
 .copy {
   font-size: 0.6em;
+}
+
+/* =========== Desktop first ======== */
+
+/* 4K screen */
+
+@media (width <= 2560px) {
+  .bottom-main {
+    margin-left: 420px;
+  }
+}
+
+/* Desktop */
+
+@media (width <= 1440px) {
+  .content {
+    margin-left: -40%;
+  }
+}
+
+/* Laptop */
+
+@media (width <= 1024px) {
+  header h1 {
+    font-size: 40px;
+  }
+
+  .bottom-main {
+    margin-left: 287px;
+  }
+
+  .navigation a {
+    font-size: 30px;
+  }
+}
+
+/* tablet */
+
+@media (width <= 768px) {
+  header .navigation {
+    width: 120%;
+  }
+
+  .social-media {
+    width: 120%;
+  }
+}
+
+/* Mobile L */
+
+@media (width <= 425px) {
+  header .navigation {
+    width: 170%;
+  }
+
+  header h1 {
+    font-size: 30px;
+    margin-left: 80px;
+  }
+
+  ul {
+    display: flex;
+    padding: 1px;
+    margin-top: 80px;
+  }
+
+  .social-media {
+    width: 170%;
+  }
+
+  .upper-main {
+    display: flex;
+  }
 }
