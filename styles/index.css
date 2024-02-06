@@ -120,7 +120,7 @@ img {
 }
 
 .middle-main img {
-  height: 650px;
+  width: 650px;
   max-width: 100%;
 }
 
@@ -290,5 +290,14 @@ img {
 
   .upper-main {
     display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+  }
+
+  .middle-main div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 255px;
+    gap: 1px;
   }
 }
