@@ -165,3 +165,137 @@ h3 {
 .copy {
   font-size: 0.6em;
 }
+
+/* =========== Desktop first ======== */
+
+/* 4K screen */
+
+/* Desktop */
+
+/* Laptop */
+
+@media (width <= 1024px) {
+  header h1 {
+    font-size: 40px;
+  }
+
+  .quote {
+    width: 1014px;
+    margin: 5px;
+    margin-left: 135px;
+  }
+
+  .quote h3 {
+    font-size: 16px;
+  }
+
+  .presentation {
+    width: 1014px;
+  }
+
+  .presentation img {
+    height: 120px;
+    width: 120px;
+    margin-left: 15px;
+  }
+
+  .presentation h2 {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+
+@media (width <= 768px) {
+  header .navigation {
+    width: 130%;
+  }
+
+  .navigation h1 {
+    font-size: 30px;
+  }
+
+  .navigation a {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+
+  .navigation ul {
+    margin-top: 130px;
+    margin-left: 15px;
+  }
+
+  .social-media {
+    width: 130%;
+  }
+
+  .mail p h4 {
+    font-size: 15px;
+  }
+
+  .mail h3 {
+    font-size: 26px;
+  }
+
+  .social p {
+    font-size: 26px;
+  }
+}
+
+/* Mobile L */
+
+@media (width <= 425px) {
+  header .navigation {
+    width: 228%;
+  }
+
+  .navigation h1 {
+    font-size: 38px;
+    margin-left: 30px;
+  }
+
+  .navigation a {
+    font-size: 30px;
+  }
+
+  .quote h3 {
+    font-size: 25px;
+  }
+
+  .presentation h2 {
+    font-size: 25px;
+  }
+
+  .social-media {
+    width: 228%;
+    height: auto;
+  }
+
+  .mail p {
+    font-size: 20px;
+  }
+
+  .mail h4 {
+    font-size: 25px;
+  }
+
+  .mail h3 {
+    font-size: 25px;
+  }
+
+  .social p {
+    font-size: 25px;
+  }
+}
+
+/* Mobile M */
+
+@media (width <= 375px) {
+  header .navigation {
+    width: 255%;
+  }
+
+  .social-media {
+    width: 255%;
+  }
+}
