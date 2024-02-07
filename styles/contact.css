@@ -185,3 +185,103 @@ button {
 .copy {
   font-size: 0.6em;
 }
+
+/* =========== Desktop first ======== */
+
+/* 4K screen */
+
+/* Desktop */
+
+/* Laptop */
+
+@media (width <= 1024px) {
+  header h1 {
+    font-size: 40px;
+  }
+
+  .contact-form {
+    margin-left: 28%;
+  }
+}
+
+/* Tablet */
+
+@media (width <= 768px) {
+  header h1 {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+
+  .navigation a {
+    font-size: 24px;
+  }
+
+  .navigation ul {
+    margin-top: 130px;
+    margin-left: 15px;
+  }
+
+  .contact-form {
+    margin-left: 20%;
+  }
+
+  .social {
+    margin-right: -25%;
+  }
+}
+
+/* Mobile L */
+
+@media (width <= 425px) {
+  header .navigation {
+    width: 120%;
+  }
+
+  header h1 {
+    font-size: 20px;
+    margin-left: 114px;
+  }
+
+  .navigation a {
+    font-size: 20px;
+  }
+
+  .navigation ul {
+    margin-top: 100px;
+  }
+
+  .contact-form {
+    padding: 19px;
+    margin: 30px 1px;
+  }
+
+  .social-media {
+    width: 113%;
+  }
+
+  .mail p {
+    font-size: 12px;
+  }
+
+  .social {
+    margin-right: -15%;
+  }
+
+  .social p {
+    font-size: 15px;
+  }
+
+  .mail h3 {
+    font-size: 15px;
+  }
+
+  .mail h4 {
+    font-size: 10px;
+  }
+
+  .mail {
+    margin-left: 10px;
+  }
+}
+
+/* Mobile M */
