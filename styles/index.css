@@ -240,6 +240,20 @@ img {
 
 /* Laptop */
 
+@media (width <= 1062px) {
+  header h1 {
+    font-size: 40px;
+  }
+
+  .bottom-main {
+    margin-left: 287px;
+  }
+
+  .navigation a {
+    font-size: 30px;
+  }
+}
+
 @media (width <= 1024px) {
   header h1 {
     font-size: 40px;
@@ -256,6 +270,16 @@ img {
 
 /* tablet */
 
+@media (width <= 870px) {
+  header .navigation {
+    width: 120%;
+  }
+
+  .social-media {
+    width: 120%;
+  }
+}
+
 @media (width <= 768px) {
   header .navigation {
     width: 120%;
@@ -266,9 +290,7 @@ img {
   }
 }
 
-/* Mobile L */
-
-@media (width <= 425px) {
+@media (width <= 727px) {
   header .navigation {
     width: 170%;
   }
@@ -283,10 +305,6 @@ img {
     padding: 1px;
     margin-top: 80px;
   }
-
-  /* .social-media {
-    width: 170%;
-  } */
 
   .upper-main {
     display: flex;
@@ -328,7 +346,80 @@ img {
   }
 
   .social-media {
-    /* width: 170%; */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 685px;
+    padding: 1px;
+  }
+
+  .mail {
+    width: 35%;
+  }
+
+  .social {
+    width: 35%;
+  }
+}
+
+/* Mobile L */
+
+@media (width <= 425px) {
+  header .navigation {
+    width: 170%;
+  }
+
+  header h1 {
+    font-size: 30px;
+    margin-left: 80px;
+  }
+
+  ul {
+    display: flex;
+    padding: 1px;
+    margin-top: 80px;
+  }
+
+  .upper-main {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+  }
+
+  .middle-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .middle-main div {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 1px;
+    align-items: flex-start;
+  }
+
+  .bottom-main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .bottom-main div {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: flex-start;
+  }
+
+  .content {
+    width: 600px;
+  }
+
+  .social-media {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
